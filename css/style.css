@@ -12,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fdf2e9;
+    position: relative;
     /* 
         For sticky Navigation button, height needs to be fixed
     */
@@ -28,7 +29,7 @@
 .main-nav-list{
     display: flex;
     list-style: none;
-    gap: 3.2rem;
+    gap: 4.8rem;
     text-decoration: none;
     align-items: center;
 }
@@ -62,6 +63,30 @@
     background-color: #cf711f;
 }
 
+/* Mobile Icon */
+.icon-mobile-nav{
+    height: 4.8rem;
+    width: 4.8rem;
+    color: #45260a;
+}
+
+.btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
+/* 
+    <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+*/
+
+.icon-mobile-nav[name = "close-outline"]{
+    display: none;
+}
 
 /* ******************** */
     /* HERO SECTION */
@@ -77,6 +102,7 @@
     max-width: 130rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 0 3.2rem;
     gap: 9.6rem;
     align-items: center;
     margin: 0 auto;
@@ -98,6 +124,10 @@
     align-items: center;
     gap: 1.6rem;
     margin-top: 8rem;
+}
+
+.hero-text-box{
+    padding: 4.8rem 0 9.6rem 0;
 }
 
 .delivered-images{
@@ -389,6 +419,7 @@
 /* ************ */
 
 .section-pricing{
+    padding-top: 9.6rem !important;
     padding: 9.6rem auto;
 }
 
@@ -529,7 +560,6 @@
 
     background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
     overflow: hidden;
-    height: 50rem;
 }
 
 .cta-img-box{
@@ -546,7 +576,7 @@
 }
 
 .cta-text-box{
-    padding: 6.4rem;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
     color: #45260a;
 }
 

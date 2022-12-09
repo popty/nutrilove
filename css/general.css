@@ -71,11 +71,13 @@ body{
     font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
-    color: #555
+    color: #555;
+    overflow-x: hidden;
 }
 
 html{
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 strong{
@@ -251,4 +253,5 @@ strong{
     align-items: center;
     gap: 1.6rem;
     font-size: 1.8rem;
+    line-height: 1.2;
 }
