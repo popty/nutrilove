@@ -314,6 +314,11 @@
         margin-bottom: 1.6rem;
     }
 
+    .pricing-plan--complete::after {
+        right: -13%;
+        font-size: 1.5rem;
+    }
+
 }
 
 
