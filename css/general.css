@@ -141,7 +141,7 @@ strong{
 
 .btn, 
 .btn:link,
-.btn--full:visited{
+.btn:visited{
    text-decoration: none;
    font-size: 2rem;
    font-weight: 600;
